@@ -83,10 +83,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _baseMap:
         m_Texture: {fileID: 2800000, guid: 727914d4f8e9f50418425ef68f039db5, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0.5, y: 0}
     - _envCube:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 8900000, guid: 26cddb2a3a1bc804d8e9ca09b109793a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -134,10 +134,10 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _envBlend: 1
-    - _envIntensity: 1
-    - _fresnelBoost: 1
-    - _fresnelPow: 5
+    - _envBlend: 0.61
+    - _envIntensity: 2
+    - _fresnelBoost: 2
+    - _fresnelPow: 0.1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
