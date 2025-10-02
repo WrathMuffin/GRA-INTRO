@@ -14,8 +14,8 @@ Within the scene assets, there is a scene called Tut 4 for this activity. There 
 Lambert:
 <img width="1427" height="745" alt="lambert scene" src="https://github.com/user-attachments/assets/e1ef1068-caf5-4793-986f-db029c7b1d61" />
 
-Ambient:
+Ambient: (note the slight lighter coloring in the shadow area)
 <img width="1399" height="778" alt="ambient scnene" src="https://github.com/user-attachments/assets/3100d32b-bcf1-45b7-8bba-d7e97f11221d" />
 
-Specular
+Specular:
 <img width="1408" height="757" alt="specular scnene" src="https://github.com/user-attachments/assets/4a60a7ca-b534-461d-a762-8f3756fba6cc" />
