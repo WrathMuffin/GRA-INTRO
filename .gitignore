@@ -1,1 +1,7 @@
 LEC/Temp/UnityLockfile
+/LEC/Temp
+/LEC/obj
+/LEC/obj
+*.cache
+LEC/Temp/UnityLockfile
+*.dwlt
