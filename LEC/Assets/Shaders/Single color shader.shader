@@ -8,7 +8,7 @@ Shader "Lec2 ShaderURP"
 
 	SubShader
 	{
-		Tags {"RenderType" = "Opaque" "RenderPipeline" = "UniversalPipeline"}
+		Tags {"RenderType" = "Opaque" "RenderPipeline" = "UniversalRenderPipeline"}
 		LOD 100
 
 		Pass

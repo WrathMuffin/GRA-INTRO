@@ -16,7 +16,7 @@ Shader "Reflective shader"
 
 	SubShader
 	{
-		Tags {"RenderType" = "Opaque" "Queue" = "Geometry" "RenderPipeline" = "UniversalPipeline"}
+		Tags {"RenderType" = "Opaque" "Queue" = "Geometry" "RenderPipeline" = "UniversalRenderPipeline"}
 		LOD 200
 
 		Pass
@@ -76,7 +76,7 @@ Shader "Reflective shader"
 
 				OUT.positionWS	= posWS;
 				OUT.normalWS	= nrmWS;
-				OUT.positionHCS = TransformObjectToHClip(posWS);
+				OUT.positionHCS = TransformWorldToHClip(posWS);
 
 				// choose UV set based on dropdown
 				//#if defined(_UVSET_UV1)

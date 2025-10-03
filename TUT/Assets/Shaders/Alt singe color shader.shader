@@ -1,3 +1,4 @@
+/*
 Shader "Unlit/First shader"
 {
     Properties
@@ -59,3 +60,4 @@ Shader "Unlit/First shader"
         }
     }
 }
+*/

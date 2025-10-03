@@ -12,7 +12,7 @@ Shader "First shader multi UV"
 
 	SubShader
 	{
-		Tags {"RenderType" = "Opaque" "Queue" = "Geometry" "RenderPipeline" = "UniversalPipeline"}
+		Tags {"RenderType" = "Opaque" "Queue" = "Geometry" "RenderPipeline" = "UniversalRenderPipeline"}
 		LOD 100
 
 		Pass
@@ -25,7 +25,7 @@ Shader "First shader multi UV"
 			#pragma fragment frag
 
 			// create keywords that matches [KeywordEnum]
-			#pragma shader_feature_local _UVSET_UV0 UVSET_UV1
+			#pragma shader_feature_local _UVSET_UV0_UVSET_UV1
 
 			#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 
