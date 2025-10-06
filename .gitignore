@@ -5,3 +5,7 @@ LEC/Temp/UnityLockfile
 *.cache
 LEC/Temp/UnityLockfile
 *.dwlt
+/Others/Midterm practice/Library
+/Others/Midterm practice/Logs
+/Others/Midterm practice/Temp
+/Others/Midterm practice/UserSettings
