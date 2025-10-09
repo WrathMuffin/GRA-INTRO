@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon
+  m_Name: Cloud
   m_Shader: {fileID: -6465566751694194690, guid: 390b7520720487f418496a8118355ec1, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _USE_RIM_YES
   m_InvalidKeywords:
-  - _RIM_YES
+  - _SHADER_TYPE_BUMP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -31,11 +31,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Base_texture:
-        m_Texture: {fileID: 10307, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Bump_texture:
+        m_Texture: {fileID: 2800000, guid: d736662681e84a140850965cc9356bf9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -78,6 +82,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -98,6 +106,7 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
+    - _Bump_amount: 0.49
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
     - _Cull: 2
@@ -112,15 +121,16 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _Outline_thickness: 0
+    - _Outline_thickness: 0.005
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _RIM: 0
-    - _Ramp_power: 6
+    - _Ramp_power: 5
     - _ReceiveShadows: 1
     - _Rim_glow: -1
     - _Rim_power: 10
+    - _SHADER_TYPE: 4
+    - _Shininess: 10
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -132,17 +142,18 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Base_color: {r: 0.49265724, g: 1, b: 0.3820755, a: 0}
+    - _Base_color: {r: 0.5235849, g: 0.99523824, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 1, g: 1, b: 0, a: 0}
-    - _Outline_color: {r: 0.47450984, g: 1, b: 1, a: 1}
-    - _Rim_color: {r: 1, g: 1, b: 1, a: 0}
+    - _Outline_color: {r: 1, g: 1, b: 1, a: 1}
+    - _Rim_color: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
-    - _Tiling: {r: 0, g: 1, b: 0, a: 0}
+    - _Specular_color: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 2, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1471062322358001142
+--- !u!114 &7003338072500906955
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
