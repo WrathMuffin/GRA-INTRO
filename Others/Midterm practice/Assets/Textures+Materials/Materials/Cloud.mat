@@ -27,11 +27,14 @@ Material:
   m_ValidKeywords:
   - _APPLY_AMBIENT_YES
   - _APPLY_BUMP_YES
-  - _APPLY_REFLECTION_YES
+  - _APPLY_COLOR_CORRECTION_NO
+  - _APPLY_FLAT_SHADING_NO
+  - _APPLY_REFLECTION_NO
   - _APPLY_RIM_YES
   - _APPLY_SPECULAR_NO
   - _APPLY_TOON_YES
   m_InvalidKeywords:
+  - _APPLY_FLAT_SHADING_A
   - _SHADER_TYPE_COMBINE_ALL
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -80,6 +83,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LUT_bar:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -124,7 +131,9 @@ Material:
     m_Floats:
     - _APPLY_AMBIENT: 0
     - _APPLY_BUMP: 0
-    - _APPLY_REFLECTION: 0
+    - _APPLY_COLOR_CORRECTION: 0
+    - _APPLY_FLAT_SHADING: 1
+    - _APPLY_REFLECTION: 1
     - _APPLY_RIM: 0
     - _APPLY_SPECULAR: 1
     - _APPLY_TOON: 0
@@ -138,6 +147,7 @@ Material:
     - _Bump_amount: 10
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Contribution: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -170,7 +180,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Base_color: {r: 0.4268868, g: 0.5, b: 0.5, a: 1}
+    - _Base_color: {r: 0.7322891, g: 0.8301887, b: 0.8301887, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Offset: {r: 0.5, g: 0.5, b: 0, a: 0}
