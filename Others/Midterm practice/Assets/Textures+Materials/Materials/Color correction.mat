@@ -33,7 +33,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo_diffuse_texture:
-        m_Texture: {fileID: 2800000, guid: c7fb8ba39d977d44ea20327847ff98a1, type: 3}
+        m_Texture: {fileID: 8400000, guid: 5110de9a6946add40a3bd2c3f792523f, type: 2}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -73,7 +73,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LUT_bar:
-        m_Texture: {fileID: 2800000, guid: 48ecf7cd275245742bbe878280c83092, type: 3}
+        m_Texture: {fileID: 2800000, guid: acf28b1e284fa3e45944580957e6d1f8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -136,7 +136,7 @@ Material:
     - _Bump_amount: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Contribution: 0.7
+    - _Contribution: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
