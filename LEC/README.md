@@ -4,8 +4,27 @@ Intro to computer graphics
 LEC - lectures stuff
 This inclues activities too
 
+////// ACTIVITY 02 ////// Activity 2: shaders created in-class 
+
+Drive link to video demo: https://drive.google.com/file/d/1xjhWvgKpCzS6J5UFhf9rMAVC4CEWIWqX/view?usp=sharing
+
+what was done, and a reflection of strenghts, weaknesses, and opportunities identified throughout the activity
+
+I have 3 shaders for class, which are metalic with specular, transparent, and hologram.
+
+I played around with various combination and by far my favourite is hologram with reflector.
+
+During the activity, my strengths are I guess being able to understand the shader a bit better 
+
+Weaknesses during this activity is definitely understanding how it all worked. I do get a gist of what is happening (I am guessing based on how I read the code please correct me if Im wrong): grabbing unity data and pass it into the shader, while on the way assign variables and conversion happens (which is why spelling is very important since it's passing the data back and forth using the variables).
+
+Opportunities that I got from this activity is definitely some cool new shaders that I can use for my future projects! Not only that, I can use it to study it further and try to understand it better in future practice sessions. A minor thing is that I can finally identified some features in the shader graph in the code too (ex: blending between two textures, texture plus custom color).
+
+
+
 ////// ACTIVITY 01 //////
 Activity 1: shaders created in-class
+
 Drive link to videos: https://drive.google.com/drive/folders/1nyn6q3_kTqZL0k2uf0reWNFWt-gE_flo?usp=sharing
 
 what was done, and a reflection of strenghts, weaknesses, and opportunities identified throughout the activity
