@@ -134,7 +134,7 @@ Material:
     - _Surface: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
-    - _envBlend: 0.61
+    - _envBlend: 0.38
     - _envIntensity: 2
     - _fresnelBoost: 2
     - _fresnelPow: 0.1
