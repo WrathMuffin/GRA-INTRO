@@ -4,6 +4,15 @@ Intro to computer graphics
 LEC - lectures stuff
 This inclues activities too
 
+
+
+////// ACTIVITY 03 ////// Activity 3: water, glass and shadows 
+Drive link to video demo: https://drive.google.com/drive/folders/1nyn6q3_kTqZL0k2uf0reWNFWt-gE_flo?usp=sharing
+
+[Shaders in activity 3.pdf](https://github.com/user-attachments/files/23427692/Shaders.in.activity.3.pdf)
+
+
+
 ////// ACTIVITY 02 ////// Activity 2: shaders created in-class 
 
 Drive link to video demo: https://drive.google.com/file/d/1xjhWvgKpCzS6J5UFhf9rMAVC4CEWIWqX/view?usp=sharing
