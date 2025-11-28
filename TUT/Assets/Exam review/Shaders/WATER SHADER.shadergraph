@@ -2455,8 +2455,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -3298.0,
-        "y": -1007.3333129882813,
+        "x": -3526.0,
+        "y": -287.3333435058594,
         "width": 584.666748046875,
         "height": 430.66668701171877
     },
@@ -5762,14 +5762,14 @@
     "m_ObjectId": "c4fea31b1de3449dbb9ca6ce8cf6fc4a",
     "m_Title": "Reflection",
     "m_Content": "Water is reflective, also makes the evironment feels atmospheric and larger (mirror effect). It's aslo based on real water reflective property, which helps with immsersion.",
-    "m_TextSize": 1,
+    "m_TextSize": 2,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -260.66668701171877,
+        "x": -260.6666564941406,
         "y": 1252.0,
-        "width": 370.66668701171877,
-        "height": 265.333251953125
+        "width": 426.0,
+        "height": 474.6666564941406
     },
     "m_Group": {
         "m_Id": ""

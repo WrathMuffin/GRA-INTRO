@@ -146,8 +146,8 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 0.0
+            "x": -142.00001525878907,
+            "y": 240.6666717529297
         },
         "m_Blocks": [
             {
@@ -163,8 +163,8 @@
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 0.0,
-            "y": 200.0
+            "x": -142.00001525878907,
+            "y": 440.66668701171877
         },
         "m_Blocks": [
             {
@@ -199,14 +199,14 @@
     "m_ObjectId": "071ddb13fe7c4eb69a9e5a3b0e6a2fc8",
     "m_Title": "I LOVE RIMMMM",
     "m_Content": "cool glowy effect, idk why but im leaning toward a fantastical perspective, and the glow of the platform feels right as it seems like it reflected againts the bioluminescense of the sea of cosmic stars",
-    "m_TextSize": 0,
+    "m_TextSize": 2,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -500.66668701171877,
-        "y": -2.0,
-        "width": 200.0,
-        "height": 160.0
+        "x": -254.0,
+        "y": 541.3333740234375,
+        "width": 546.0,
+        "height": 425.33331298828127
     },
     "m_Group": {
         "m_Id": ""
